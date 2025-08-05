@@ -7,7 +7,8 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'My Heroes',
+      title: 'Pokemons',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.red),
       routeInformationParser: Modular.routeInformationParser,
       routerDelegate: Modular.routerDelegate,
